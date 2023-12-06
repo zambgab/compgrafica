@@ -26,12 +26,12 @@ O usuário consegue interagir com a aplicação através do scroll do mouse, ond
 •	E: Ir para esquerda 
 Também é possível visualizar a aplicação em fullscreen.  
 
-> Classe Main: Semelhante aos projetos anteriores, alterando basicamente o nome da aplicação.
+Classe Main: Semelhante aos projetos anteriores, alterando basicamente o nome da aplicação.
 
-> Classe Solar: Desenha o corpo celeste com sua posição e tamanho, considerando principalmente órbita e escala. Dentro desta classe, temos funções que criam as esferas e os buffers a serem passados ao OpenGL (create), destrói os buffers já utilizados (destroy), desenha o corpo na cena (render), vetor dos vértices das esferas, escala de tamanho do corpo, cor do corpo celeste (color) e raio da órbita do corpo ao redor do  corpo satélite (orbit_radius). 
+Classe Solar: Desenha o corpo celeste com sua posição e tamanho, considerando principalmente órbita e escala. Dentro desta classe, temos funções que criam as esferas e os buffers a serem passados ao OpenGL (create), destrói os buffers já utilizados (destroy), desenha o corpo na cena (render), vetor dos vértices das esferas, escala de tamanho do corpo, cor do corpo celeste (color) e raio da órbita do corpo ao redor do  corpo satélite (orbit_radius). 
 
-> Classe Window: Semelhante aos demais projetos, definimos o funcionamento geral da cena da UI, passando por exemplo os objetos a serem criados. 
+Classe Window: Semelhante aos demais projetos, definimos o funcionamento geral da cena da UI, passando por exemplo os objetos a serem criados. 
 
-> Classe Camera: Permite que o usuário mova a câmera na cena, capturando o cursor do mouse e realizando a rotação, movimentação de aproximação ou afastamento, movendo a câmera verticalmente e horizontalmente. 
+Classe Camera: Permite que o usuário mova a câmera na cena, capturando o cursor do mouse e realizando a rotação, movimentação de aproximação ou afastamento, movendo a câmera verticalmente e horizontalmente. 
 
-> Texturização: Para cada um dos planetas rochosos, Sol e Lua, utilizamos a textura difusa que representam as cores de sua superfície. Todas as texturas utilizadas foram obtidas na Internet. 
+Texturização: Para cada um dos planetas rochosos, Sol e Lua, utilizamos a textura difusa que representam as cores de sua superfície. Todas as texturas utilizadas foram obtidas na Internet. 
